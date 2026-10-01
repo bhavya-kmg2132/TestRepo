@@ -1,1 +1,36 @@
-"${HTML/BRANCH_NAME/$branch}" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Page 3 - Card Gallery</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f2f5; margin: 0; padding: 40px 20px; }
+    h1 { text-align: center; color: #222; }
+    .gallery { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 30px; }
+    .card { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); width: 220px; padding: 16px; text-align: center; }
+    .card .icon { font-size: 2.5rem; }
+    .card h3 { margin: 10px 0 6px; color: #333; }
+    .card p { color: #777; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Our Features</h1>
+  <div class="gallery">
+    <div class="card">
+      <div class="icon">&#9733;</div>
+      <h3>Fast</h3>
+      <p>Lightning quick performance for every task.</p>
+    </div>
+    <div class="card">
+      <div class="icon">&#128274;</div>
+      <h3>Secure</h3>
+      <p>Your data is protected end-to-end.</p>
+    </div>
+    <div class="card">
+      <div class="icon">&#9881;</div>
+      <h3>Reliable</h3>
+      <p>Built to work consistently, every time.</p>
+    </div>
+  </div>
+</body>
+</html>
